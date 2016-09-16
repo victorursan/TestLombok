@@ -1,6 +1,7 @@
 package vanilla;
 
 import other.Shape;
+
 import java.util.Arrays;
 
 
@@ -90,7 +91,7 @@ public class MyEqualsAndHash {
         }
 
         public String toString() {
-            return "lombok.MyEqualsAndHash.Square(super=" + super.toString() + ", width=" + this.width + ", height=" + this.height + ")";
+            return "vanilla.MyEqualsAndHash.Square(super=" + super.toString() + ", width=" + this.width + ", height=" + this.height + ")";
         }
     }
 }

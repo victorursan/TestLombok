@@ -48,6 +48,6 @@ public final class MyValue {
     }
 
     public String toString() {
-        return "vanila.MyValue(name=" + this.getName() + ", age=" + this.getAge() + ", score=" + this.getScore() + ")";
+        return "vanilla.MyValue(name=" + this.getName() + ", age=" + this.getAge() + ", score=" + this.getScore() + ")";
     }
 }
