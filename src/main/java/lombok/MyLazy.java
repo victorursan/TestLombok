@@ -6,6 +6,7 @@ public class MyLazy {
     private final double[] cached = expensive();
 
     private double[] expensive() {
+        System.out.println("hello");
         double[] result = new double[100000000];
         for (int i = 0; i < result.length; i++) {
             result[i] = Math.asin(i);
